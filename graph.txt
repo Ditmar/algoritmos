@@ -1,0 +1,22 @@
+{
+				{inf, 599, 180, 497, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf},
+				{599, inf, inf, inf, inf, inf, 420, 691, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf},
+				{180, inf, inf, 432, 602, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf},
+				{497, inf, 432, inf, inf, inf, 345, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf} ,
+				{inf, inf, 602, inf, inf, 138, inf, inf, inf, 291, inf, inf, inf, inf, inf, inf, inf, inf, inf} ,
+				{inf, inf, inf, inf, 138, inf, 526, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf},
+				{inf, 420, inf, 345, inf, 526, inf, 440, inf, inf, 432, 621, inf, inf, inf, inf, inf, inf, inf}, 
+				{inf, 691, inf, inf, inf, inf, 440, inf, 102, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf}, 
+				{inf, inf, inf, inf, inf, inf, inf, 102, inf, inf, inf, 452, inf, inf, inf, inf, inf, inf, inf},
+				{inf, inf, inf, inf, 291, inf, inf, inf, inf, inf, 260, inf, 114, inf, inf, inf, inf, inf, inf},
+				{inf, inf, inf, inf, inf, inf, 432, inf, inf, 260, inf, inf, inf, 155, 108, 440, inf, inf, inf}, 
+				{inf, inf, inf, inf, inf, inf, 621, inf, 452, inf, inf, inf, inf, inf, 469, inf, inf, inf, 110},
+				{inf, inf, inf, inf, inf, inf, inf, inf, inf, 114, inf, inf, inf, 256, inf, 366, 118, inf, inf}, 
+				{inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, 155, inf, 256, inf, 207, inf, inf, inf, inf}, 
+				{inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, 108, 469, inf, 207, inf, inf, inf, inf, inf}, 
+				{inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, 440, inf, 366, inf, inf, inf, inf, inf, 403}, 
+				{inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, 118, inf, inf, inf, inf, 425, inf},
+				{inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, 425, inf, 314}, 
+				{inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, inf, 110, inf, inf, inf, 403, inf, 314, inf} 
+		
+		};
