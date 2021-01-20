@@ -1,0 +1,11 @@
+package graph;
+
+public class Edge {
+	private double weigth;
+	private double capabilities;
+	private double sink;
+	public Edge(double weigth) {
+		this.weigth = weigth;
+	}
+	
+}

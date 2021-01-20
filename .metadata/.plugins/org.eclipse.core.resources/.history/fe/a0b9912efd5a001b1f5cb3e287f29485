@@ -1,0 +1,6 @@
+package graph;
+
+public class Label {
+	private double w;
+	private Vertex vertex;
+}

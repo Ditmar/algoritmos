@@ -1,0 +1,10 @@
+import graph.Vertex;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Vertex v1 = new Vertex("v1");
+	}
+
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.lang.model.element.ModuleElement.DirectiveKind"/>
+    <fullyQualifiedTypeName name="java.lang.Boolean"/>
+    <fullyQualifiedTypeName name="graphs.Dijkstra"/>
+    <fullyQualifiedTypeName name="graphs.Label"/>
+    <fullyQualifiedTypeName name="graphs.Vertex"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="graph.Edge"/>
+    <fullyQualifiedTypeName name="graph.Vertex"/>
+    <fullyQualifiedTypeName name="graph.Label"/>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.graph.Edges"/>
+</qualifiedTypeNameHistroy>

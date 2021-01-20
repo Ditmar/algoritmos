@@ -1,0 +1,41 @@
+package algorithms;
+
+import graph.Edges;
+
+import graph.*;
+
+public class FordFukerson {
+	private Vertex source, destination;
+	private Boolean irruptionroutes = false;
+	public FordFukerson(Vertex source, Vertex destination) {
+		this.source = source;
+		this.destination = destination;
+	}
+	public void apply() {
+		Label label = new Label(9999, null);
+		this.source.setLabelAlgorithms(label);
+		Vertex nextvertex =  this.source;
+		while (!irruptionroutes) {
+			//paso 1
+			double mayor = 1;
+			for (int i = 0; i < nextvertex.getEdges().size(); i++) {
+				Edge n = nextvertex.getEdges().get(i);
+				if (n.getCapabilities() != 0 && 
+						n.getSource().getVisited() == false
+						n.getCapabilities() > mayor) {
+					nextvertex = n.getDestination();
+					mayor = n.getCapabilities();
+				}
+			}
+			//retroceso
+			if (nextvertex.getLabelAlgorithms().getParent() == null) {
+				irruptionroutes = true;//termina
+			} else {
+				nextvertex.setVisited(true);
+				nextvertex = nextvertex.getLabelAlgorithms().getParent();
+				
+			}
+			
+		}
+	}
+}

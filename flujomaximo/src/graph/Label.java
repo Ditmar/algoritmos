@@ -1,0 +1,24 @@
+package graph;
+
+public class Label {
+	private double w;
+	private Vertex parent;
+	public Label(double w, Vertex parent) {
+		this.w = w;
+		this.parent = parent;
+	}
+	public double getW() {
+		return w;
+	}
+	public void setW(double w) {
+		this.w = w;
+	}
+	public Vertex getParent() {
+		return parent;
+	}
+	public void setParent(Vertex parent) {
+		this.parent = parent;
+	}
+	
+	
+}

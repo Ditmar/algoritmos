@@ -1,0 +1,22 @@
+package graph;
+
+public class Label {
+	private double w;
+	private Vertex vertex;
+	public Label(double w) {
+		this.w = w;
+	}
+	public double getW() {
+		return w;
+	}
+	public void setW(double w) {
+		this.w = w;
+	}
+	public Vertex getVertex() {
+		return vertex;
+	}
+	public void setVertex(Vertex vertex) {
+		this.vertex = vertex;
+	}
+	
+}

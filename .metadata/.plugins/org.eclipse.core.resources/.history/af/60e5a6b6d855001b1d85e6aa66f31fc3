@@ -1,0 +1,10 @@
+package graphs;
+
+public class Vertex {
+	private String label;
+	private Integer index;
+	public Vertex(String label) {
+		this.label = label;
+	}
+	
+}

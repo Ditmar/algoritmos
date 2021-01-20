@@ -1,0 +1,10 @@
+package graph;
+
+public class Vertex {
+	private String label;
+	private Boolean Visited;
+	public Vertex(String label) {
+		this.label = label;
+	}
+	
+}

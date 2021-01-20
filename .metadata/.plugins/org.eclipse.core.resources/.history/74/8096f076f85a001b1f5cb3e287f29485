@@ -1,0 +1,8 @@
+package graph;
+
+public class Edge {
+	private double weigth;
+	public Edge(double weigth) {
+		this.weigth = weigth
+	}
+}

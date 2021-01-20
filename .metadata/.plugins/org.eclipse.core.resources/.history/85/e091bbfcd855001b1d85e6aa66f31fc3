@@ -1,0 +1,9 @@
+package graphs;
+
+public class Label {
+	private Integer weight;
+	private Vertex vertex;
+	public label (w, v) {
+		this.weight = w;
+	}
+}

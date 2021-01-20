@@ -1,0 +1,22 @@
+package grafos;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//{inf, inf, inf, inf, inf, inf, inf, inf, inf},
+		Integer inf = 9999;
+		Integer[][] matrix = {
+				{inf, 1, inf, inf, inf, inf, inf, inf, 3},
+				{inf, inf, 2, inf, inf, inf, inf, inf, inf},
+				{inf, inf, inf, 4, inf, inf, inf, inf, inf},
+				{inf, inf, inf, inf, inf, inf, 8, inf, inf},
+				{inf, inf, inf, inf, inf, inf, 1, 2, inf},
+				{inf, 10, 4, inf, 4, inf, inf, inf, inf},
+				{inf, inf, inf, inf, inf, 3, inf, inf, inf},
+				{inf, inf, inf, inf, inf, inf, inf, inf, inf},
+				
+		};
+	}
+
+}

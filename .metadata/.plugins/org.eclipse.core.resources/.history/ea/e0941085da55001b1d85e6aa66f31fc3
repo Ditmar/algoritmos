@@ -1,0 +1,23 @@
+package graphs;
+
+public class Label {
+	private Integer weight;
+	private Vertex vertex;
+	public Label (Integer w, Vertex v) {
+		this.weight = w;
+		this.vertex = v;
+	}
+	public Integer getWeight() {
+		return weight;
+	}
+	public void setWeight(Integer weight) {
+		this.weight = weight;
+	}
+	public Vertex getVertex() {
+		return vertex;
+	}
+	public void setVertex(Vertex vertex) {
+		this.vertex = vertex;
+	}
+	
+}
