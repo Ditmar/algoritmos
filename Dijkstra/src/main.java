@@ -1,5 +1,3 @@
-package grafos;
-
 import java.util.ArrayList;
 
 import graphs.Dijkstra;
@@ -10,7 +8,6 @@ public class main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//{inf, inf, inf, inf, inf, inf, inf, inf, inf},
 		Integer inf = 9999;
 		Integer[][] matrix = {
 				{inf, 1, inf, inf, inf, inf, inf, 5, 3},
